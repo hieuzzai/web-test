@@ -308,6 +308,54 @@ function changeColor8() {
 
 }
 
+function changeColor10() {
+    var maincard = document.getElementById("main-card").style.background = '#dde2e5';
+    var skillcard = document.getElementById("skills-card").style.background = '#06A763';
+    var button = document.getElementsByClassName("butt");
+    button[0].style.background = '#06A763';
+    button[1].style.background = '#06A763';
+    var slant = document.getElementsByClassName("slant")[0].style.borderBottom = '400px solid #dde2e5';
+    var timelinedot = document.getElementsByClassName("timeline-dot");
+    for (i = 0; i < timelinedot.length; i++) {
+        timelinedot[i].style.background = '#06A763';
+    }
+    var string = document.getElementsByClassName("string");
+    for (i = 0; i < string.length; i++) {
+        string[i].style.background = '#06A763';
+    }
+    var verticalline = document.getElementsByClassName("timeline-vertical")[0].style.background = '#06A763';
+    var cardcontentBorder = document.getElementsByClassName("timeline-content");
+    for (i = 0; i < cardcontentBorder.length; i++) {
+        cardcontentBorder[i].style.borderLeft = '5px solid #06A763';
+    }
+    var skillbarGround = document.getElementsByClassName("skillbar");
+    for (i = 0; i < skillbarGround.length; i++) {
+        skillbarGround[i].style.background = '#05985a';
+    }
+    var plusCircle = document.getElementsByClassName("circle")[0].style.background = '#06A763';
+
+    var threeStick = document.getElementsByTagName("i");
+    for (i = 0; i < threeStick.length; i++) {
+        threeStick[11].style.color = '#06A763';
+        threeStick[12].style.color = '#06A763';
+        threeStick[13].style.color = '#06A763';
+    }
+    var logoFlat = document.getElementsByClassName("logo-flat")[0].style.background = '#06A763';
+
+    var textColor = document.getElementsByClassName("card-content")[0];
+    textColor.classList.toggle("black-text");
+
+}
+
+function Blender() {
+    var containerAbout = document.getElementsByClassName("container-about")[0].style.background = '#f5f5f5';
+    var timelineContent = document.getElementsByClassName("timeline-content");
+    for (i=0;i<timelineContent.length;i++)
+    {
+        timelineContent[i].style.background = '#f5f5f5';
+    }
+}
+
 function hover(i) {
     var colorChanged = document.getElementsByTagName("a");
     var logoFlat = document.getElementsByClassName("logo-flat")[0].style.background;

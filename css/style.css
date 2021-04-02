@@ -908,4 +908,6 @@ ol, ul {
 .colors .color10 {
     background: #dde2e5;
 }
-
+.black-text {
+    text-decoration: #616161 !important;
+}
