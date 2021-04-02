@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Flatrica</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" id="switch_style" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="myscripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="theMenu" class="menu">
+            <div class="menu-wrap">
+                <div class="logo-flat">
+                    <img src="http://trimatrixlab.com/store/flatrica/images/profile/john.png" alt="logo">
+                </div>
+                <br>
+                <a href="#home" onmouseover="hover(0)" onmouseout="hoverout(0)">
+                    <i class="fa fa-user"></i>
+                    Home
+                </a>
+                <a href="#about" onmouseover="hover(1)" onmouseout="hoverout(1)">
+                    <i class="fa fa-dashboard"></i>
+                    About
+                </a>
+                <a href="#education" onmouseover="hover(2)" onmouseout="hoverout(2)">
+                    <i class="fa fa-graduation-cap"></i>
+                    Education
+                </a>
+                <a href="#skills" onmouseover="hover(3)" onmouseout="hoverout(3)">
+                    <i class="fa fa-sliders"></i>
+                    Skills
+                </a>
+                <a href="#experience" onmouseover="hover(4)" onmouseout="hoverout(4)">
+                    <i class="fa fa-suitcase"></i>
+                    Experience
+                </a>
+                <a href="#portfolios" onmouseover="hover(5)" onmouseout="hoverout(5)">
+                    <i class="fa fa-archive"></i>
+                    Portfolios
+                </a>
+                <a href="#interest" onmouseover="hover(6)" onmouseout="hoverout(6)">
+                    <i class="fa fa-heart" ></i>
+                    Interest
+                </a>
+                <a href="#testimonials" onmouseover="hover(7)" onmouseout="hoverout(7)">
+                    <i class="fa fa-users"></i>
+                    Testimonials
+                </a>
+                <a href="#pricing" onmouseover="hover(8)" onmouseout="hoverout(8)">
+                    <i class="fa fa-money"></i>
+                    Pricing
+                </a>
+                <a href="#blog" onmouseover="hover(9)" onmouseout="hoverout(9)">
+                    <i class="fa fa-pencil-square"></i>
+                    Blog
+                </a>
+                <a href="#contact"  onmouseover="hover(10)" onmouseout="hoverout(10)">
+                    <i class="fa fa-envelope"></i>
+                    Contact
+                </a>
+            </div>
+            <div id="menuToggle" class="active">
+                <div class="toggle-normal">
+                    <i id="first" class=" material-icons top-bar" onclick="myFunction();myFunction2();myFunction3();myFunction4()">remove</i>
+                    <i id="second" class=" material-icons middle-bar" onclick="myFunction();myFunction2();myFunction3();myFunction4()">remove</i>
+                    <i id="third" class=" material-icons bottom-bar" onclick="myFunction();myFunction2();myFunction3();myFunction4()">remove</i>
+                </div>
+            </div>
+        </nav>
+        <div class="header-background section"></div>
+    </header>
+
+    <div id="profile-card" class="section" style="visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+        <div class="container">
+            <div id="main-card" class="card color">
+                <div id="avatar" class="right">
+                    <img src="http://trimatrixlab.com/store/flatrica/images/profile/profile.png">
+                    <div class="slant"><div class="circle"><i class="fa fa-plus"></i></div></div>
+                </div>
+                <div class="card-content">
+                    <div class="info-header">
+                        <h4 class="name">Hyeur</h4>
+                        <h6 class="specialized">Software Engineer & UI/UX Expert</h6>
+                    </div>
+                    <div class="infos">
+                        <ul class="profile-list">
+                            <li class="clearfix">
+                                <span class="title"><i class="material-icons">email</i></span>
+                                <span class="content">hieuzzai9@gmail.com</span>
+                            </li>
+                            <li class="clearfix">
+                                <span class="title"><i class="material-icons">language</i></span>
+                                <span class="content">yourpersonalwebsite.com</span>
+                            </li>
+                            <li class="clearfix">
+                                <span class="title"><i class="fa fa-skype" aria-hidden="true"></i></span>
+                                <span class="content">live:.cid.adf6492c6622d3d7@skype.com</span>
+                            </li>
+                            <li class="clearfix">
+                                <span class="title"><i class="material-icons">phone</i></span>
+                                <span class="content">+84 932 546 521</span>
+                            </li>
+                            <li class="clearfix">
+                                <span class="title"><i class="material-icons">place</i></span>
+                                <span class="content">To Hieu 68, Da nang, Viet Nam</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <span class="circle-icon"><a href="#"><i class="fa fa-facebook"></i></a></span>
+                        <span class="circle-icon"><a href="#"><i class="fa fa-twitter"></i></a></span>
+                        <span class="circle-icon"><a href="#"><i class="fa fa-google-plus"></i></a></span>
+                        <span class="circle-icon"><a href="#"><i class="fa fa-linkedin"></i></a></span>
+                        <span class="circle-icon"><a href="#"><i class="fa fa-rss"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="about" class="section">
+        <div class="container-about">
+            <div class="card-content" style="width: auto;">
+                <p>
+                    Hello! I’m Hyeur. Fresher Web Developer. Experienced with all stages of the
+                    development cycle for dynamic web projects.Having an in-depth knowledge
+                    including advanced HTML5, CSS, CSS3, SASS, LESS, JSON, XML, Java, JavaScript,
+                    JQuery, Angular JS. Strong background in management and leadership.
+                </p>
+            </div>
+            <div class="card-action">
+                <div class="butt-con">
+                    <a href="https://drive.google.com/uc?id=1i_ZU86Jx2XXkTViiBwhVim2ddW4RGjto&export=download" download="https://drive.google.com/uc?id=1i_ZU86Jx2XXkTViiBwhVim2ddW4RGjto&export=download" target="_blank" class="butt color" style="margin-right: 10px;">DOWNLOAD CV</a>
+                    <a href="#" class="butt color" style="margin-left: 10px;">CONTACT ME</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+    
+    <div id="education" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-uppercase" style="text-align: center; font-weight: 600;">
+                    <img src="http://trimatrixlab.com/store/flatrica/images/icons/book.png" alt="demo">Education
+                </h4>
+            </div>
+            <div id="timeline-education">
+                <div class="timeline-vertical color"></div>
+                <div class="timeline-block" style="margin-top: 0;">
+                    <div class="timeline-dot color">
+                        <h6>P</h6>
+                    </div>
+                    <div class="card timeline-content">
+                        <div class="string color"></div>
+                        <div class="card-content">
+                            <h6 class="timeline-title">Preparatory Education</h6>
+                            <div class="timeline-info">
+                                <h6><small>Fredrick School</small></h6>
+                                <h6><small>Jan 1997 - Mar 2000</small></h6>
+                                <p>I completed my preparatory education from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+                                <a href="#" class="modal-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-block" style="margin-top: 0;">
+                    <div class="timeline-dot color">
+                        <h6>H</h6>
+                    </div>
+                    <div class="card timeline-content" style="float: right;">
+                        <div class="string color" style="left: -63px;"></div>
+                        <div class="card-content">
+                            <h6 class="timeline-title">High School</h6>
+                            <div class="timeline-info">
+                                <h6><small>RedStreet College</small></h6>
+                                <h6><small>Jan 2000 - Mar 2005</small></h6>
+                                <p>I completed my high school degree from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-block" style="margin-top: 0;">
+                    <div class="timeline-dot color">
+                        <h6>C</h6>
+                    </div>
+                    <div class="card timeline-content">
+                        <div class="string color"></div>
+                        <div class="card-content">
+                            <h6 class="timeline-title">Computer Science</h6>
+                            <div class="timeline-info">
+                                <h6><small>Down Street College</small></h6>
+                                <h6><small>Jan 2006 - Mar 2008</small></h6>
+                                <p>I completed my computer science degree from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+                            </div>
+                        </div>
+                    </div></div>
+                <div class="timeline-block" style="margin-top: 0;">
+                    <div class="timeline-dot color">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="card timeline-content" style="float: right;">
+                        <div class="string color" style="left: -63px;"></div>
+                        <div class="card-content">
+                            <h6 class="timeline-title">Software Engineering</h6>
+                            <div class="timeline-info">
+                                <h6><small>Oxford University</small></h6>
+                                <h6><small>Jan 2009 - Mar 2010</small></h6>
+                                <p>I completed this degree from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-block" style="margin-top: 0;">
+                    <div class="timeline-dot color">
+                        <h6>U</h6>
+                    </div>
+                    <div class="card timeline-content">
+                        <div class="string color"></div>
+                        <div class="card-content">
+                            <h6 class="timeline-title">UI/UX Workshop</h6>
+                            <div class="timeline-info">
+                                <h6><small>IT Next Academy</small></h6>
+                                <h6><small>Jan 2010 - Mar 2011</small></h6>
+                                <p>I completed this course from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+                                <a href="#" class="modal-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-block" style="margin-top: 0;">
+                    <div class="timeline-dot color">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <div class="card timeline-content" style="float: right;">
+                        <div class="string color" style="left: -63px;"></div>
+                        <div class="card-content">
+                            <h6 class="timeline-title">Web Development</h6>
+                            <div class="timeline-info">
+                                <h6><small>Lipro University</small></h6>
+                                <h6><small>Jan 2011 - Mar 2012</small></h6>
+                                <p>I completed this course from this prestigious institution. I successful completed all the credits without any fallout and got A grade overall.</p>
+                                <a href="#" class="modal-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-uppercase" style="text-align: center; font-weight: 600;">
+                    <img src="http://trimatrixlab.com/store/flatrica/images/icons/mixer.png" alt="mixer">Skills
+                </h4>
+            </div>
+            <div id="skills-card" class="card color">
+                <div class="skills-card-content">
+                    <div class="roww">
+                        <div class="skillss">
+                            <div class="skills-title">
+                                <h6>Professional</h6>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="skillbar-bar chinmuoi"></div>
+                                <div class="skill-bar-percent">90%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>CSS3</span>
+                                </div>
+                                <div class="skillbar-bar chinmuoi"></div>
+                                <div class="skill-bar-percent">90%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>JQuery</span>
+                                </div>
+                                <div class="skillbar-bar baymuoi"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>PHP</span>
+                                </div>
+                                <div class="skillbar-bar sautam"></div>
+                                <div class="skill-bar-percent">68%</div>
+                            </div>
+                        </div>
+                        <div class="skillss">
+                            <div class="skills-title">
+                                <h6>Personal</h6>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>Communication</span>
+                                </div>
+                                <div class="skillbar-bar tammuoi"></div>
+                                <div class="skill-bar-percent">80%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>Teamwork</span>
+                                </div>
+                                <div class="skillbar-bar saumuoi"></div>
+                                <div class="skill-bar-percent">60%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>Creativity</span>
+                                </div>
+                                <div class="skillbar-bar baymuoi"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>Dedication</span>
+                                </div>
+                                <div class="skillbar-bar baymuoi"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div>
+                        </div>
+                        <div class="skillss">
+                            <div class="skills-title">
+                                <h6>Software</h6>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>Adobe Illustrator</span>
+                                </div>
+                                <div class="skillbar-bar tammuoi"></div>
+                                <div class="skill-bar-percent">80%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>Adobe InDesign</span>
+                                </div>
+                                <div class="skillbar-bar baymuoi"></div>
+                                <div class="skill-bar-percent">70%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>PHP Storm</span>
+                                </div>
+                                <div class="skillbar-bar saumuoi"></div>
+                                <div class="skill-bar-percent">60%</div>
+                            </div>
+                            <div class="skillbar">
+                                <div class="skillbar-title">
+                                    <span>Dev Console</span>
+                                </div>
+                                <div class="skillbar-bar tammuoi"></div>
+                                <div class="skill-bar-percent">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="color-palate" class="popout card">
+        <div id="color-toggle" class="toggle">
+            <i id="pc" onclick="myFunction5()" class="fa fa-cog fa-spin"></i>
+        </div>
+        <div class="colors">
+            <p>Pick a Color</p>
+            <ul>
+                <li onclick="changeColor1()" id="blue" class="color1"></li>
+                <li onclick="changeColor2()" id="teal" class="color2"></li>
+                <li onclick="changeColor3()" id="gray" class="color3"></li>
+                <li onclick="changeColor4()" id="green" class="color4"></li>
+                <li onclick="changeColor5()" id="purple" class="color5"></li>
+                <li onclick="changeColor6()" id="brown" class="color6"></li>
+                <li onclick="changeColor7()" id="red" class="color7"></li>
+                <li onclick="changeColor8()" id="pink" class="color8"></li>
+            </ul>
+            <p>Blend & Dark</p>
+            <ul>
+                <li id="blue-blend" class="color1"></li>
+                <li id="green-blend" class="color4"></li>
+                <li id="dark_gray" class="color10"></li>
+            </ul>
+        </div>
+    </div>
+</body>
