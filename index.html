@@ -13,6 +13,8 @@
     <link href="css/style.css" id="switch_style" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="myscripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -78,7 +80,7 @@
         <div class="header-background section"></div>
     </header>
 
-    <div id="profile-card" class="section" style="visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+    <div id="profile-card" class="section" data-aos="fade-up" style="visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.4s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
         <div class="container">
             <div id="main-card" class="card color">
                 <div id="avatar" class="right">
@@ -127,7 +129,7 @@
 
     </div>
     <div id="about" class="section">
-        <div class="container-about">
+        <div class="container-about" data-aos="flip-right">
             <div class="card-content" style="width: auto;">
                 <p>
                     Hello! I’m Hyeur. Fresher Web Developer. Experienced with all stages of the
@@ -155,10 +157,10 @@
             <div id="timeline-education">
                 <div class="timeline-vertical color"></div>
                 <div class="timeline-block" style="margin-top: 0;">
-                    <div class="timeline-dot color">
+                    <div class="timeline-dot color" data-aos="flip-up">
                         <h6>P</h6>
                     </div>
-                    <div class="card timeline-content">
+                    <div class="card timeline-content" data-aos="flip-right">
                         <div class="string color"></div>
                         <div class="card-content">
                             <h6 class="timeline-title">Preparatory Education</h6>
@@ -172,10 +174,10 @@
                     </div>
                 </div>
                 <div class="timeline-block" style="margin-top: 0;">
-                    <div class="timeline-dot color">
+                    <div class="timeline-dot color" data-aos="flip-up">
                         <h6>H</h6>
                     </div>
-                    <div class="card timeline-content" style="float: right;">
+                    <div class="card timeline-content" style="float: right;" data-aos="flip-right">
                         <div class="string color" style="left: -63px;"></div>
                         <div class="card-content">
                             <h6 class="timeline-title">High School</h6>
@@ -188,10 +190,10 @@
                     </div>
                 </div>
                 <div class="timeline-block" style="margin-top: 0;">
-                    <div class="timeline-dot color">
+                    <div class="timeline-dot color" data-aos="flip-up">
                         <h6>C</h6>
                     </div>
-                    <div class="card timeline-content">
+                    <div class="card timeline-content" data-aos="flip-right">
                         <div class="string color"></div>
                         <div class="card-content">
                             <h6 class="timeline-title">Computer Science</h6>
@@ -203,10 +205,10 @@
                         </div>
                     </div></div>
                 <div class="timeline-block" style="margin-top: 0;">
-                    <div class="timeline-dot color">
+                    <div class="timeline-dot color" data-aos="flip-up">
                         <i class="fa fa-graduation-cap"></i>
                     </div>
-                    <div class="card timeline-content" style="float: right;">
+                    <div class="card timeline-content" style="float: right;" data-aos="flip-right">
                         <div class="string color" style="left: -63px;"></div>
                         <div class="card-content">
                             <h6 class="timeline-title">Software Engineering</h6>
@@ -219,10 +221,10 @@
                     </div>
                 </div>
                 <div class="timeline-block" style="margin-top: 0;">
-                    <div class="timeline-dot color">
+                    <div class="timeline-dot color" data-aos="flip-up">
                         <h6>U</h6>
                     </div>
-                    <div class="card timeline-content">
+                    <div class="card timeline-content" data-aos="flip-right">
                         <div class="string color"></div>
                         <div class="card-content">
                             <h6 class="timeline-title">UI/UX Workshop</h6>
@@ -236,10 +238,10 @@
                     </div>
                 </div>
                 <div class="timeline-block" style="margin-top: 0;">
-                    <div class="timeline-dot color">
+                    <div class="timeline-dot color" data-aos="flip-up">
                         <i class="fa fa-globe"></i>
                     </div>
-                    <div class="card timeline-content" style="float: right;">
+                    <div class="card timeline-content" style="float: right;" data-aos="flip-right">
                         <div class="string color" style="left: -63px;"></div>
                         <div class="card-content">
                             <h6 class="timeline-title">Web Development</h6>
@@ -257,7 +259,7 @@
     </div>
 
     <div id="skills" class="section">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-easing="ease-out">
             <div class="section-title">
                 <h4 class="text-uppercase" style="text-align: center; font-weight: 600;">
                     <img src="http://trimatrixlab.com/store/flatrica/images/icons/mixer.png" alt="mixer">Skills
@@ -395,4 +397,7 @@
             </ul>
         </div>
     </div>
+    <script>
+        AOS.init({duration:1750});
+    </script>
 </body>
